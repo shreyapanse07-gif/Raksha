@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raksha — Uttarakhand Red Zone Dashboard</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
+</head>
+<body>
+
+<!-- Brief branded splash while the initial data loads, so the first
+     paint isn't a blank screen. The radar sweep grounds the loading
+     moment in the "situational awareness" concept of the dashboard. -->
+<div id="loading-splash">
+  <div class="splash-radar">
+    <span class="splash-icon">🛡</span>
+  </div>
+  <div class="splash-title">Raksha</div>
+  <div class="splash-sub">Loading hazard &amp; relocation data…</div>
+</div>
+
+<div class="app">
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">🛡</div>
+      <div>
+        <h1>Raksha <span class="brand-live"><span class="live-dot"></span>LIVE</span></h1>
+        <p>Uttarakhand Disaster Risk &amp; Relocation Planning</p>
+      </div>
+    </div>
+
+    <div class="summary-cards" id="summary-cards">
+      <!-- filled by JS -->
+    </div>
+
+    <div class="search-box">
+      <input list="village-search-list" id="village-search" placeholder="Search a village by name..." />
+      <datalist id="village-search-list"></datalist>
+      <button id="village-search-btn">Go</button>
+    </div>
+
+    <div class="filter-row">
+      <label><input type="checkbox" class="risk-filter" value="Severe" checked> Severe</label>
+      <label><input type="checkbox" class="risk-filter" value="High" checked> High</label>
+      <label><input type="checkbox" class="risk-filter" value="Moderate" checked> Moderate</label>
+      <label><input type="checkbox" class="risk-filter" value="Low" checked> Low</label>
+    </div>
+
+    <div class="panel-tabs">
+      <button class="tab-btn active" data-tab="villages">At-Risk Villages</button>
+      <button class="tab-btn" data-tab="sites">Relocation Sites</button>
+    </div>
+
+    <div class="panel-content" id="villages-panel">
+      <div class="panel-list" id="villages-list"></div>
+    </div>
+
+    <div class="panel-content hidden" id="sites-panel">
+      <div class="panel-list" id="sites-list"></div>
+    </div>
+  </aside>
+
+  <!-- ===================== MAP ===================== -->
+  <main class="map-wrap">
+    <div id="map"></div>
+
+    <div class="legend">
+      <div class="legend-title">Hazard Zone (danger of the land)</div>
+      <div class="legend-row"><span class="dot low"></span> Low</div>
+      <div class="legend-row"><span class="dot moderate"></span> Moderate</div>
+      <!-- Labels match the problem statement's own language -->
+      <div class="legend-title" style="margin-top:10px;">Response Priority (act on these first)</div>
+      <div class="legend-row"><span class="dot priority-immediate-relocation"></span> Immediate</div>
+      <div class="legend-row"><span class="dot priority-short-term-relocation"></span> Short-Term</div>
+      <div class="legend-row"><span class="dot priority-medium-term-relocation"></span> Medium-Term</div>
+      <div class="legend-row"><span class="dot site"></span> Relocation Site</div>
+    </div>
+
+    <div class="layer-toggle">
+      <label><input type="checkbox" id="toggle-villages" checked> Villages</label>
+      <label><input type="checkbox" id="toggle-sites" checked> Relocation Sites</label>
+    </div>
+  </main>
+
+  <!-- ===================== DETAIL DRAWER ===================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <div class="drawer" id="detail-drawer">
+    <button class="drawer-close" id="drawer-close">&times;</button>
+    <div id="drawer-content"></div>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ url_for('static', filename='app.js') }}?v=3"></script>
+</body>
+</html>

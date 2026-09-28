@@ -1,0 +1,508 @@
+[
+  {
+    "village": "Mussoorie",
+    "latitude": 30.4569012,
+    "longitude": 78.07829060000002,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Kincraig",
+    "latitude": 30.451892800000003,
+    "longitude": 78.0790126,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Library Bazaar",
+    "latitude": 30.4600494,
+    "longitude": 78.0649368,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "herneidel",
+    "latitude": 30.4725428,
+    "longitude": 78.0538916,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Bagi",
+    "latitude": 30.9542971,
+    "longitude": 77.802043,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.3
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.3
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "charlevila",
+    "latitude": 30.467207200000008,
+    "longitude": 78.0583119,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Phadej",
+    "latitude": 30.850980000000003,
+    "longitude": 77.74338,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Sisters' Bazaar",
+    "latitude": 30.4565366,
+    "longitude": 78.1022642,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "barlowganj",
+    "latitude": 30.440071600000003,
+    "longitude": 78.0880952,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 4.9
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 3.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Khalagon",
+    "latitude": 30.4047977,
+    "longitude": 78.0892885,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 3.5
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 1.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Dokkar Ka Bas",
+    "latitude": 30.743716800000005,
+    "longitude": 77.7451157,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.6
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Bulaila",
+    "latitude": 30.727836900000003,
+    "longitude": 77.78597110000001,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.1
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.6
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "mongra",
+    "latitude": 31.06498299999999,
+    "longitude": 77.8212476,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.3
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "ghatudhar",
+    "latitude": 30.482283899999995,
+    "longitude": 78.0556512,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.5
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 1.9
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "nadal dogri",
+    "latitude": 31.0538531,
+    "longitude": 77.8201532,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.3
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Tihar",
+    "latitude": 30.84904670000001,
+    "longitude": 78.6413303,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 1.1
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.7
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "bhatta",
+    "latitude": 30.436824800000004,
+    "longitude": 78.0797481,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 6.3
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 4.6
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 6.3
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Chhumaru",
+    "latitude": 30.9484544,
+    "longitude": 77.8340793,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.1
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "saina",
+    "latitude": 31.045470400000003,
+    "longitude": 77.817986,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.3
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Vishnupray\u0101g",
+    "latitude": 30.562644400000007,
+    "longitude": 79.5791482,
+    "risk_level": "Severe",
+    "trigger_threshold_mm": 60,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.0
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 1.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Sais",
+    "latitude": 30.953709700000008,
+    "longitude": 77.8508089,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.1
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  },
+  {
+    "village": "Daura",
+    "latitude": 30.9344397,
+    "longitude": 77.8533965,
+    "risk_level": "High",
+    "trigger_threshold_mm": 90,
+    "forecast": [
+      {
+        "date": "2026-09-21",
+        "forecast_mm": 0.1
+      },
+      {
+        "date": "2026-09-22",
+        "forecast_mm": 0.2
+      },
+      {
+        "date": "2026-09-23",
+        "forecast_mm": 0.0
+      }
+    ],
+    "active_alerts": [],
+    "status": "watch"
+  }
+]
